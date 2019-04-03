@@ -198,8 +198,7 @@ class ProjectClass {
           <li>CSS</li>
           <li>JavaScript</li>
         </ol>`,
-        live_link:
-          "https://fallencloud.github.io/Random-Quote-Generator/index.html",
+        live_link: "https://fallencloud.github.io/Random-Quote-Generator/",
         github: "https://github.com/fallencloud/Random-Quote-Generator",
         details: ``
       },
