@@ -2,14 +2,14 @@ class MainClass {
   constructor() {
     this.sections = [
       {
-        heading: "Background",
+        heading: 'Background',
         body: `<p>I'm an aspiring web developer who loves everything about coding. I've spent a lot of time doing software support and am currently looking to make the jump to development. I'm excited to begin building my skills in what I know will be a fulfilling career.</p>
 
         <p>I'm a life-long learner. I actually study for fun! I'm always interested in learning new things and expanding my skillset.</p>`,
-        id: "background"
+        id: 'background'
       },
       {
-        heading: "Goals",
+        heading: 'Goals',
         body: `<p>
         I want to broaden my development toolset and gain practical knowledge
         in the MERN stack.
@@ -28,7 +28,7 @@ class MainClass {
         I'd like to work for a web development compnay that invests in its
         employees as much as it invests in its clients.
       </p>`,
-        id: "goals"
+        id: 'goals'
       }
     ];
     this.loadSections();
@@ -38,9 +38,9 @@ class MainClass {
     let sectionsHTML = this.sections.reduce(
       (html, section, index) =>
         (html += this.generateSectionsHTML(section, index)),
-      ""
+      ''
     );
-    $("#main").html(sectionsHTML);
+    $('#main').html(sectionsHTML);
   }
 
   generateSectionsHTML(section, index) {
@@ -56,10 +56,10 @@ class ExperienceClass {
   constructor() {
     this.jobs = [
       {
-        company: "MiSource/Pegasus Transtech",
-        location: "Tampa",
-        position: "ELD Support Analyst",
-        dates: "January 2017 - September 2017",
+        company: 'MiSource/Pegasus Transtech',
+        location: 'Tampa',
+        position: 'ELD Support Analyst',
+        dates: 'January 2017 - September 2017',
         tasks: `<ol>
           <li>Provided technical assistance and training for end-users and administrators.</li>
           <li>Identified bugs, documented steps to reproduce, and escalated to QA or third-party vendors.</li>
@@ -67,10 +67,10 @@ class ExperienceClass {
           bug fixes.</li></ol>`
       },
       {
-        company: "ACS Group",
-        location: "Saint Petersburg",
-        position: "Technical Analyst II",
-        dates: "October 2016 - January 2017",
+        company: 'ACS Group',
+        location: 'Saint Petersburg',
+        position: 'Technical Analyst II',
+        dates: 'October 2016 - January 2017',
         tasks: `<ol>
           <li>Provided end-user training and technical support for web-based
           payroll software.</li>
@@ -80,10 +80,10 @@ class ExperienceClass {
           follow-up as necessary..</li></ol>`
       },
       {
-        company: "App Institute",
-        location: "Remote",
-        position: "Chat Support Specialist",
-        dates: "April 2016 - August 2016",
+        company: 'App Institute',
+        location: 'Remote',
+        position: 'Chat Support Specialist',
+        dates: 'April 2016 - August 2016',
         tasks: `<ol>
           <li>Provided training and support to incoming chats via Intercom for
           proprietary SAAS CMS.</li>
@@ -92,10 +92,10 @@ class ExperienceClass {
           <li>Created apps using CMS to match customer specifications.</li></ol>`
       },
       {
-        company: "Mercury New Media",
-        location: "Tampa",
-        position: "Software Support Specialist",
-        dates: "August 2015 - November 2015",
+        company: 'Mercury New Media',
+        location: 'Tampa',
+        position: 'Software Support Specialist',
+        dates: 'August 2015 - November 2015',
         tasks: `<ol>
           <li>Reviewed support request Zendesk and routed to front-end or
           back-end developers.</li>          
@@ -109,10 +109,10 @@ class ExperienceClass {
           </ol>`
       },
       {
-        company: "Chase Paymentech",
-        location: "Tampa",
-        position: "Client Support Analyst I",
-        dates: "January 2013 - October 2014",
+        company: 'Chase Paymentech',
+        location: 'Tampa',
+        position: 'Client Support Analyst I',
+        dates: 'January 2013 - October 2014',
         tasks: `<ol>
           <li>Assisted merchants with the troubleshooting of proprietary desktop and mobile software.</li>
           <li>Adjusted browser settings, tested server connectivity, and configured
@@ -122,20 +122,20 @@ class ExperienceClass {
           troubleshooting while maintaining high quality marks.</li></ol>`
       },
       {
-        company: "Gorilla Systems",
-        location: "Tampa",
-        position: "Quality Assurance",
-        dates: "May 2008 - July 2008",
+        company: 'Gorilla Systems',
+        location: 'Tampa',
+        position: 'Quality Assurance',
+        dates: 'May 2008 - July 2008',
         tasks: `<ol>
           <li>Designed video game  levels according to game design document.</li>
           <li>Refined game  levels to maintain consistency throughout the game.</li>
           <li>Tested levels to ensure playability and minimize bugs.</li></ol>`
       },
       {
-        company: "Insignia Technology",
-        location: "Newport News",
-        position: "Customer Support Specialist",
-        dates: "October 2007 - March 2007",
+        company: 'Insignia Technology',
+        location: 'Newport News',
+        position: 'Customer Support Specialist',
+        dates: 'October 2007 - March 2007',
         tasks: `<ol>
           <li>Received requests for support through telephone, email, and
           ticketing system from military personnel.</li>
@@ -144,20 +144,20 @@ class ExperienceClass {
           <li>Created tickets, provided follow-up, answered general questions.</li></ol>`
       },
       {
-        company: "Verizon",
-        location: "Hampton",
-        position: "Fiber Analyst",
-        dates: "November 2006 - March 2006",
+        company: 'Verizon',
+        location: 'Hampton',
+        position: 'Fiber Analyst',
+        dates: 'November 2006 - March 2006',
         tasks: `<ol>
           <li>Received desktop support request from end-users via phone.</li>
           <li>Provided network, hardware, and software troubleshooting.</li>
           <li>Created tickets and dispatched support technicians as required.</li></ol>`
       },
       {
-        company: "Cardinal Health",
-        location: "Norfolk",
-        position: "Technical Support Representative",
-        dates: "April 2004 - November 2006",
+        company: 'Cardinal Health',
+        location: 'Norfolk',
+        position: 'Technical Support Representative',
+        dates: 'April 2004 - November 2006',
         tasks: `<ol>
           <li>Received desktop support request from end-users via phone.</li>
           <li>Assisted with site navigation, adding/removing software, and
@@ -170,9 +170,9 @@ class ExperienceClass {
   loadJobs() {
     let jobsHTML = this.jobs.reduce(
       (html, job, index) => (html += this.generateJobsHTML(job, index)),
-      ""
+      ''
     );
-    $("#main").html(jobsHTML);
+    $('#main').html(jobsHTML);
   }
   generateJobsHTML(job, index) {
     return `<section class="exp">
@@ -189,61 +189,90 @@ class ProjectClass {
   constructor() {
     this.projects = [
       {
-        title: "Random Quote Generator",
-        description: "A quote generator",
-        image: "",
+        title: 'Worker Bee',
+        description: 'A React Employee Directory',
+        image: '',
         languages: `
         <ol id="skills">
-          <li>HTML</li>
-          <li>CSS</li>
+          <li>React</li>          
           <li>JavaScript</li>
+          <li>CRUD</li>
+          <li>Bootstrap</li>
+          <li>CSS</li>
         </ol>`,
-        live_link: "https://fallencloud.github.io/Random-Quote-Generator/",
-        github: "https://github.com/fallencloud/Random-Quote-Generator",
+        live_link: 'https://fallencloud.github.io/worker_bee_react/',
+        github: 'https://github.com/fallencloud/worker_bee_react',
         details: ``
       },
       {
-        title: "RSVP",
-        description: "A RSVP app",
-        image: "",
+        title: 'React Flash Cards',
+        description: 'React based flash cards',
+        image: '',
         languages: `
         <ol id="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ol>`,
-        live_link: "https://fallencloud.github.io/rsvp/index.html",
-        github: "https://github.com/fallencloud/rsvp",
-        details: ``
-      },
-      {
-        title: "Tic Tac Toe",
-        description: "A pass-n-play version of Tic Tac Toe",
-        image: "",
-        languages: `
-        <ol id="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ol>`,
-        live_link: "https://fallencloud.github.io/Tic-Tac-Toe/",
-        github: "https://github.com/fallencloud/Tic-Tac-Toe",
-        details: ``
-      },
-      {
-        title: "Full Stack Conf",
-        description: "A React site with form validation",
-        image: "",
-        languages: `
-        <ol id="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
           <li>React</li>
+          <li>JavaScript</li>
+          <li>CSS</li>
         </ol>`,
-        live_link: "https://fallencloud.github.io/Build-an-Interactive-Form/",
-        github: "https://github.com/fallencloud/Build-an-Interactive-Form",
+        live_link: 'https://sharinas-flash-cards.herokuapp.com/',
+        github: 'https://github.com/fallencloud/flash_card_react',
+        details: ``
+      },
+      {
+        title: 'To Do List',
+        description: 'React flash cards',
+        image: '',
+        languages: `
+        <ol id="skills">
+          <li>React</li>
+          <li>JavaScript</li>
+          <li>Context API</li>
+        </ol>`,
+        live_link: 'https://sharinas-to-do-app.herokuapp.com/',
+        github: 'https://github.com/fallencloud/todo_react',
+        details: ``
+      },
+
+      {
+        title: 'RSVP',
+        description: 'An RSVP app using OOP',
+        image: '',
+        languages: `
+        <ol id="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ol>`,
+        live_link: 'https://fallencloud.github.io/rsvp/index.html',
+        github: 'https://github.com/fallencloud/rsvp',
+        details: ``
+      },
+      {
+        title: 'Tic Tac Toe',
+        description: 'A pass-n-play version of Tic Tac Toe',
+        image: '',
+        languages: `
+        <ol id="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ol>`,
+        live_link: 'https://fallencloud.github.io/Tic-Tac-Toe/',
+        github: 'https://github.com/fallencloud/Tic-Tac-Toe',
+        details: ``
+      },
+      {
+        title: 'Random Quote Generator',
+        description: 'A quote generator',
+        image: '',
+        languages: `
+        <ol id="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ol>`,
+        live_link: 'https://fallencloud.github.io/Random-Quote-Generator/',
+        github: 'https://github.com/fallencloud/Random-Quote-Generator',
         details: ``
       }
     ];
@@ -253,15 +282,17 @@ class ProjectClass {
   loadProjects() {
     let projectsHTML = this.projects.reduce(
       (html, project) => (html += this.generateProjectsHTML(project)),
-      ""
+      ''
     );
-    $("#main").html(projectsHTML);
+    $('#main').html(projectsHTML);
   }
   generateProjectsHTML(project) {
     return `<section class="prj">
     <h3><strong>${project.title}</strong> — <em><a href=${
       project.live_link
-    } target="_blank">View Live</a></em></h3>
+    } target="_blank">View Live</a></em> / <em><a href=${
+      project.github
+    } target="_blank">GitHub</a></em></h3>
     <span class="small-date">${project.description}</span>
     ${project.languages}
     </section>`;
@@ -290,9 +321,9 @@ class ContactClass {
   loadContacts() {
     let contactsHTML = this.contact.reduce(
       (html, contact) => (html += this.generateContactsHTML(contact)),
-      ""
+      ''
     );
-    $("#main").html(contactsHTML);
+    $('#main').html(contactsHTML);
   } //end loadContacts()
 
   generateContactsHTML(contact) {
@@ -303,17 +334,17 @@ class ContactClass {
   }
 }
 
-$("#home").click(() => {
+$('#home').click(() => {
   const seeSections = new MainClass();
 });
-$("#experience").click(() => {
+$('#experience').click(() => {
   const seeJobs = new ExperienceClass();
 });
 
-$("#projects").click(() => {
+$('#projects').click(() => {
   const seeProj = new ProjectClass();
 });
 
-$("#contact").click(() => {
+$('#contact').click(() => {
   const seeContacts = new ContactClass();
 });
