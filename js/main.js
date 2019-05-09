@@ -214,7 +214,7 @@ class ProjectClass {
           <li>JavaScript</li>
           <li>CSS</li>
         </ol>`,
-        live_link: 'https://sharinas-flash-cards.herokuapp.com/',
+        live_link: 'https://fallencloud.github.io/flash_card_react/',
         github: 'https://github.com/fallencloud/flash_card_react',
         details: ``
       },
@@ -228,7 +228,7 @@ class ProjectClass {
           <li>JavaScript</li>
           <li>Context API</li>
         </ol>`,
-        live_link: 'https://sharinas-to-do-app.herokuapp.com/',
+        live_link: 'https://fallencloud.github.io/todo_react/',
         github: 'https://github.com/fallencloud/todo_react',
         details: ``
       },
