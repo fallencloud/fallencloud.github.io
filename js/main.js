@@ -190,18 +190,22 @@ class ProjectClass {
     this.projects = [
       {
         title: 'Worker Bee',
-        description: 'A React Employee Directory',
+        description: 'A MERN stack Employee Directory',
         image: '',
         languages: `
         <ol id="skills">
-          <li>React</li>          
-          <li>JavaScript</li>
+          <li>MongoDB</li>        
+          <li>Express</li>
+          <li>React</li>
+          <li>Node</li>
+          <li>Context API</li>
+          <li>React Router</li>
           <li>CRUD</li>
           <li>Bootstrap</li>
           <li>CSS</li>
         </ol>`,
-        live_link: 'https://fallencloud.github.io/worker_bee_react/',
-        github: 'https://github.com/fallencloud/worker_bee_react',
+        live_link: 'https://worker-bee-fullstack.herokuapp.com/',
+        github: 'https://github.com/fallencloud/worker_bee_fullstack',
         details: ``
       },
       {
